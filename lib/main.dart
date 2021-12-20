@@ -43,21 +43,23 @@ class Home extends StatelessWidget {
             end: Alignment.bottomCenter),
         image: DecorationImage(image: AssetImage("assets/images/avatar.jpg")),
       ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          firstAreaWidget(),
-          Column(
-            children: [
-              twoAreaWidget(),
-              threeAreaWidget(),
-              fourAreaWidget(),
-              fiveAreaWidget(),
-            ],
-          ),
-          sixAreaWidget(),
-          sevenAreaWidget()
-        ],
+      child: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            firstAreaWidget(),
+            Column(
+              children: [
+                twoAreaWidget(),
+                threeAreaWidget(),
+                fourAreaWidget(),
+                fiveAreaWidget(),
+              ],
+            ),
+            sixAreaWidget(),
+            sevenAreaWidget()
+          ],
+        ),
       ),
     );
   }
