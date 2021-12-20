@@ -18,8 +18,8 @@ class firstAreaWidget extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(5.0),
               child: Container(
-                width: 40,
-                height: 40,
+                width: 30,
+                height: 30,
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage("assets/images/netflix.png"))),
@@ -33,12 +33,11 @@ class firstAreaWidget extends StatelessWidget {
                       iconSize: 20, onPressed: () {}, icon: Icon(Icons.search)),
                 ),
                 Container(
-                  alignment: Alignment.topCenter,
-                  width: 30,
-                  height: 40,
-                  child: IconButton(
-                      iconSize: 20, onPressed: () {}, icon: Icon(Icons.share)),
-                ),
+                    alignment: Alignment.topCenter,
+                    width: 50,
+                    height: 40,
+                    child: Image(
+                        image: AssetImage("assets/images/netflixsmiley.jpg"))),
                 Container(
                   child: SizedBox(
                     width: 5,

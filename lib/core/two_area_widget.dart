@@ -12,7 +12,7 @@ class twoAreaWidget extends StatelessWidget {
           color: Colors.black26,
           child: Text(
             "MEZOPOTAMYA",
-            style: GoogleFonts.pinyonScript(fontSize: 80),
+            style: GoogleFonts.pinyonScript(fontSize: 60),
           ),
         ),
         Container(
@@ -21,7 +21,7 @@ class twoAreaWidget extends StatelessWidget {
             color: Colors.black26,
             child: Text(
               "Living Lab & Sanlıurfa",
-              style: GoogleFonts.pinyonScript(fontSize: 60),
+              style: GoogleFonts.pinyonScript(fontSize: 40),
             ))
       ],
     );
