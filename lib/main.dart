@@ -34,6 +34,13 @@ class Home extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
       decoration: BoxDecoration(
+        borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(100), topRight: Radius.circular(100)),
+        //color: Colors.black,
+        gradient: LinearGradient(
+            colors: [Colors.black12, Colors.black],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter),
         image: DecorationImage(image: AssetImage("assets/images/avatar.jpg")),
       ),
       child: Column(
