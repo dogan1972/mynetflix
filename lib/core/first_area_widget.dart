@@ -10,7 +10,7 @@ class firstAreaWidget extends StatelessWidget {
     return Column(
       children: [
         SizedBox(
-          height: 20,
+          height: 50,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -22,7 +22,7 @@ class firstAreaWidget extends StatelessWidget {
                 height: 30,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("assets/images/netflix.png"))),
+                        image: AssetImage("assets/icons/netflix.png"))),
               ),
             ),
             Row(
@@ -34,10 +34,10 @@ class firstAreaWidget extends StatelessWidget {
                 ),
                 Container(
                     alignment: Alignment.topCenter,
-                    width: 50,
-                    height: 40,
+                    width: 40,
+                    height: 30,
                     child: Image(
-                        image: AssetImage("assets/images/netflixsmiley.jpg"))),
+                        image: AssetImage("assets/icons/netflixsmiley.jpg"))),
                 Container(
                   child: SizedBox(
                     width: 5,
