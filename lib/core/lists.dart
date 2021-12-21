@@ -6,6 +6,14 @@ const List films = [
   "blackpanter.jpg",
   "marvel.jpg",
   "matrix.jpg",
-  "netflix.jpg",
+  "sonic.jpg",
+];
+
+const List movies = [
+  "aquaman.jpg",
+  "avatar.jpg",
+  "blackpanter.jpg",
+  "marvel.jpg",
+  "matrix.jpg",
   "sonic.jpg",
 ];
